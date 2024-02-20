@@ -9,7 +9,5 @@ class JwtAuthenticationApplicationTests {
 	@Test
 	void contextLoads() {
 	}
-//AI Changes 
 
-//main commit changes
 }
