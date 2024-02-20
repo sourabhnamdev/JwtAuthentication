@@ -9,11 +9,5 @@ class JwtAuthenticationApplicationTests {
 	@Test
 	void contextLoads() {
 	}
-//Sample New Copy
-
-//main line
-
-//AI Code here
-
 
 }
