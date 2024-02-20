@@ -10,10 +10,6 @@ class JwtAuthenticationApplicationTests {
 	void contextLoads() {
 	}
 //Sample New Copy
-
-//main line
-
 //AI Code here
-
 
 }
