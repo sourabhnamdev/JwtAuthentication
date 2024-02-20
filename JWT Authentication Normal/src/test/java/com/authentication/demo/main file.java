@@ -10,5 +10,4 @@ class JwtAuthenticationApplicationTests {
 	void contextLoads() {
 	}
 
-//main commit changes
 }
