@@ -86,7 +86,7 @@ public class GlobalExceptionHandler extends ResponseEntityExceptionHandler {
 			HttpStatus status, WebRequest request) {
 		String message = ex.getMessage();
 		List<String> details = new ArrayList<>();
-		details.add("Request body is not redable");
+                details.add("Request body is not readable");
 
 		ApiError errors = new ApiError(message, LocalDateTime.now());
 		return ResponseEntity.status(status).body(errors);
