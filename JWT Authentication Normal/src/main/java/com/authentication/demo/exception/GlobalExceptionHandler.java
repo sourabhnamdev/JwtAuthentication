@@ -99,10 +99,6 @@ public class GlobalExceptionHandler extends ResponseEntityExceptionHandler {
 		details.add("other exception");
 		details.add(ex.getMessage());
 
-		/*
-		 * ApiError errors = new ApiError(message, details, HttpStatus.BAD_REQUEST,
-		 * LocalDateTime.now());
-		 */
 		ApiError errors = new ApiError(message, LocalDateTime.now());
 		return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(errors);
 	}
