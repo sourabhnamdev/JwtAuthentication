@@ -35,7 +35,7 @@ public class UserServiceImpl {
 	}
 
 	public List<UserDto> getUsers() {
-		log.info("Inside UserServiceImpl in createUser()");
+		log.info("Inside UserServiceImpl in getUsers()");
 		return userRepository.findAll();
 
 	}
